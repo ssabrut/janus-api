@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import nltk
 
-nltk.download("stopwords")
 nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
@@ -15,11 +14,6 @@ stopwords = nltk.corpus.stopwords.words("english")
 
 def lower_text(text):
     return text.lower()
-
-
-def remove_stopwords(text):
-    tokens = [word for word in text.split() if word not in stopwords]
-    return " ".join(tokens)
 
 
 def remove_punctuation(text):
@@ -38,7 +32,6 @@ def lemmatize(text):
 
 def preprocess(text):
     text = lower_text(text)
-    # text = remove_stopwords(text)
     text = remove_punctuation(text)
     text = lemmatize(text)
     text = remove_whitespace(text)
