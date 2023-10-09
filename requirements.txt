@@ -8,7 +8,6 @@ scikit-learn
 nltk
 pymongo
 python-dotenv
-kafka-python
 annoy
 urllib3==1.26.6
 pylzma
