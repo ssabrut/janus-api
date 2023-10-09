@@ -4,15 +4,8 @@ import re
 # from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 import pandas as pd
-import nltk
-
-nltk.data.path.append("/home/sbx_user1051/nltk_data")
-nltk.path.append("/home/sbx_user1051/nltk_data")
-nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
-stopwords = nltk.corpus.stopwords.words("english")
-
 
 def lower_text(text):
     return text.lower()
