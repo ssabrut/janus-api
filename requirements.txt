@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+cohere
+openai
+scikit-learn
+nltk
+pymongo
+python-dotenv
+kafka-python
+annoy
