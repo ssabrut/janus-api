@@ -46,10 +46,6 @@ def preprocess(text):
 
 
 def vectorize_diary(diary):
-    def filter(text):
-        tokens = [word for word in text.split() if word in filtered_words]
-        return " ".join(tokens)
-
     diary = diary["data"]["diaries"]
     documents = [entry["content"] for entry in diary]
 

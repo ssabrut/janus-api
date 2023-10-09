@@ -5,6 +5,7 @@ from annoy import AnnoyIndex
 import pandas as pd
 from utils import preprocess
 import openai
+import numpy as np
 
 openai.api_key = os.getenv("OPENAI_KEY")
 
