@@ -1,4 +1,4 @@
-pylzma
+liblzma-dev
 fastapi
 uvicorn
 pandas
