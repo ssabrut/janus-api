@@ -1,4 +1,3 @@
-pyliblzma
 fastapi
 uvicorn
 pandas
