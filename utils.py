@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import nltk
 
-nltk.data.path.append("/")
+nltk.data.path.append("/home/sbx_user1051/nltk_data")
 nltk.download("wordnet")
 
 lemmatizer = WordNetLemmatizer()
