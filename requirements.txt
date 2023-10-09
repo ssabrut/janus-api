@@ -1,5 +1,5 @@
 wheel
-backports.lzma
+backports.lzma==0.0.14
 fastapi
 uvicorn
 pandas
