@@ -3,7 +3,6 @@ uvicorn
 pandas
 cohere
 openai
-scikit-learn
 nltk
 pymongo
 python-dotenv
