@@ -2,7 +2,6 @@ import cohere
 from dotenv import load_dotenv
 import os
 from annoy import AnnoyIndex
-import numpy as np
 import pandas as pd
 from utils import preprocess
 import openai
